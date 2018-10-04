@@ -1,0 +1,35 @@
+﻿<Window x:Class="TP_Feugere_Adipietro_Garrach.ListeDesContacts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TP_Feugere_Adipietro_Garrach"
+        mc:Ignorable="d"
+        Title="Liste Des Contacts" Height="691.333" Width="673" Left="50" Top="10">
+    <Grid Margin="0,0,0,0">
+        <Grid.Background>
+            <ImageBrush ImageSource="Ressources/background.jpg"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="173*"/>
+            <ColumnDefinition Width="160*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="listBoxContact" HorizontalAlignment="Left" Height="332" Margin="21,186,0,0" VerticalAlignment="Top" Width="578" Background="#FF170B0B" Opacity="0.5" Foreground="#FFF9F9F9" Grid.ColumnSpan="2" FontFamily="Verdana" FontSize="16"/>
+        <Grid HorizontalAlignment="Left" Height="113" Margin="21,36,0,0" VerticalAlignment="Top" Width="578" Grid.ColumnSpan="2" Background="Black" Opacity="0.6">
+            <TextBox x:Name="NomSearch" HorizontalAlignment="Left" Height="35" Margin="10,10,0,0" TextWrapping="Wrap" Text="Nom..." VerticalAlignment="Top" Width="151"  Opacity="0.4" FontFamily="Verdana" BorderThickness="0,0,0,2" Background="{x:Null}"  Foreground="White" FontSize="16" GotFocus="NomSearch_GotFocus" />
+            <TextBox x:Name="VilleSearch" HorizontalAlignment="Left" Height="35" Margin="186,65,0,0" TextWrapping="Wrap" Text="Ville..." VerticalAlignment="Top" Width="134"  Opacity="0.4" FontFamily="Verdana" BorderThickness="0,0,0,2" Background="{x:Null}"   Foreground="White" FontSize="16" GotFocus="VilleSearch_GotFocus"/>
+            <TextBox x:Name="PaysSearch" HorizontalAlignment="Left" Height="35" Margin="10,65,0,0" TextWrapping="Wrap" Text="Pays..." VerticalAlignment="Top" Width="151"  Opacity="0.4" FontFamily="Verdana" BorderThickness="0,0,0,2" Background="{x:Null}"   Foreground="White" FontSize="16" GotFocus="PaysSearch_GotFocus"/>
+            <Button x:Name="buttonSearch" Content="" HorizontalAlignment="Left" Margin="500,50,0,0" VerticalAlignment="Top" Width="68" Height="50" BorderThickness="0" RenderTransformOrigin="0.015,-1.46" Click="buttonSearch_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Ressources/search.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <TextBox x:Name="Prenom_Search" HorizontalAlignment="Left" Height="35" Margin="186,10,0,0" TextWrapping="Wrap" Text="Prenom..." VerticalAlignment="Top" Width="134"  Opacity="0.4" FontFamily="Verdana" BorderThickness="0,0,0,2" Background="{x:Null}"   Foreground="White" FontSize="16" GotFocus="Prenom_Search_GotFocus" />
+        </Grid>
+        <Button x:Name="buttonUpdate" Content="Update" HorizontalAlignment="Left" Margin="88,556,0,0" VerticalAlignment="Top" Width="138" Height="41" Click="buttonUpdate_Click" Background="#FF439AA8" FontFamily="Verdana" Foreground="White"/>
+        <Button x:Name="buttonDelete" Grid.ColumnSpan="2" Content="Delete" HorizontalAlignment="Left" Margin="280,556,0,0" VerticalAlignment="Top" Width="123" Height="41" Click="buttonDelete_Click" Background="#FF439AA8" FontFamily="Verdana" Foreground="White"/>
+        <Button x:Name="buttonRetour" Content="Retour" Grid.Column="1" HorizontalAlignment="Left" Margin="140,556,0,0" VerticalAlignment="Top" Width="114" Height="41" Click="Retour" Background="#FF439AA8" FontFamily="Verdana" Foreground="White"/>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="TP_Feugere_Adipietro_Garrach.AcceuilWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TP_Feugere_Adipietro_Garrach"
+        mc:Ignorable="d"
+        Title="Acceuil" Height="475.997" Width="673" HorizontalAlignment="Center" VerticalAlignment="Center" Left="50" Top="10" ResizeMode="NoResize">
+    <Grid HorizontalAlignment="Left" Width="673" Margin="0,0,0,0">
+        <Grid.Background>
+            <ImageBrush ImageSource="Ressources/background.jpg"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="labelBienvenue" Grid.ColumnSpan="2" Content="Bienvenue " Margin="195,111,0,0" VerticalAlignment="Top" Height="104" FontSize="20" Foreground="#FFE4D6D6" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="ButtonListContact" Grid.ColumnSpan="2" Content="Listes des contacts" HorizontalAlignment="Left" Margin="160,229,0,0" VerticalAlignment="Top" Width="157" Height="42" Click="ButtonListContact_Click" Background="#FF439AA8" BorderBrush="#FF439AA8" Foreground="#FFF3E5E5" FontFamily="Verdana" FontWeight="Bold" FontSize="12"/>
+        <Button x:Name="ButtonAjouterContact" Grid.ColumnSpan="2" Content="Ajouter contact" HorizontalAlignment="Left" Margin="359,229,0,0" VerticalAlignment="Top" Width="159" Height="42" Click="ButtonAjouterContact_Click" Foreground="#FFF3E5E5" BorderBrush="#FF439AA8" Background="#FF439AA8" FontFamily="Verdana" FontSize="12" FontWeight="Bold" BorderThickness="0"/>
+        <Button x:Name="ButtonQuitter" Grid.ColumnSpan="2" Content="Quitter" HorizontalAlignment="Left" Margin="246,341,0,0" VerticalAlignment="Top" Width="157" Height="42" Background="#FF439AA8" BorderBrush="#FF439AA8" Foreground="#FFF3E5E5" FontFamily="Verdana" FontWeight="Bold" FontSize="12" Click="Quitter"/>
+      <Button x:Name="buttonDeconnecter" Grid.ColumnSpan="2" Content="Se déconnecter" HorizontalAlignment="Left" Margin="559,18,0,0" VerticalAlignment="Top" Width="91" Background="#FF008706" Click="Deconnecter" Height="31"/>
+
+
+    </Grid>
+</Window>

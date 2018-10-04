@@ -1,0 +1,27 @@
+C:\Users\Jean-François\Documents\ISI\P55 - C#\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\BLL.dll
+C:\Users\Jean-François\Documents\ISI\P55 - C#\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\BLL.pdb
+C:\Users\Jean-François\Documents\ISI\P55 - C#\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\DAL.dll
+C:\Users\Jean-François\Documents\ISI\P55 - C#\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\Model.dll
+C:\Users\Jean-François\Documents\ISI\P55 - C#\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\DAL.pdb
+C:\Users\Jean-François\Documents\ISI\P55 - C#\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\Model.pdb
+C:\Users\Jean-François\Documents\ISI\P55 - C#\TP_Feugere_Adipietro_Garrach\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Jean-François\Documents\ISI\P55 - C#\TP_Feugere_Adipietro_Garrach\BLL\obj\Debug\BLL.dll
+C:\Users\Jean-François\Documents\ISI\P55 - C#\TP_Feugere_Adipietro_Garrach\BLL\obj\Debug\BLL.pdb
+U:\cours C#\Cours C-sharp (avril 2018)\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\BLL.dll
+U:\cours C#\Cours C-sharp (avril 2018)\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\BLL.pdb
+U:\cours C#\Cours C-sharp (avril 2018)\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\DAL.dll
+U:\cours C#\Cours C-sharp (avril 2018)\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\Model.dll
+U:\cours C#\Cours C-sharp (avril 2018)\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\DAL.pdb
+U:\cours C#\Cours C-sharp (avril 2018)\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\Model.pdb
+U:\cours C#\Cours C-sharp (avril 2018)\TP_Feugere_Adipietro_Garrach\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+U:\cours C#\Cours C-sharp (avril 2018)\TP_Feugere_Adipietro_Garrach\BLL\obj\Debug\BLL.dll
+U:\cours C#\Cours C-sharp (avril 2018)\TP_Feugere_Adipietro_Garrach\BLL\obj\Debug\BLL.pdb
+C:\ASPnetC#\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\BLL.dll
+C:\ASPnetC#\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\BLL.pdb
+C:\ASPnetC#\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\DAL.dll
+C:\ASPnetC#\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\Model.dll
+C:\ASPnetC#\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\DAL.pdb
+C:\ASPnetC#\TP_Feugere_Adipietro_Garrach\BLL\bin\Debug\Model.pdb
+C:\ASPnetC#\TP_Feugere_Adipietro_Garrach\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\ASPnetC#\TP_Feugere_Adipietro_Garrach\BLL\obj\Debug\BLL.dll
+C:\ASPnetC#\TP_Feugere_Adipietro_Garrach\BLL\obj\Debug\BLL.pdb
